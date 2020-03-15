@@ -15,7 +15,7 @@ namespace ChatClientCoklu
         public Kisi Kisi { get; set; }
         public StreamWriter Writer { get; set; }
 
-        Point ilkkonum; // Bu değişkenler Global olarak tanımlanmalı.
+        Point ilkkonum;
         bool durum = false;
         public FrmChat()
         {
